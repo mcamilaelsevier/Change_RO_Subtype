@@ -2,9 +2,9 @@ import requests
 import pandas as pd
 
 # Define the API endpoint base and headers
-api_endpoint_base = "https://aah-test.devel.elsevierpure.com/ws/api/research-outputs/"
+api_endpoint_base = "https://YOUR-URL.elsevierpure.com/ws/api/research-outputs/"
 headers = {
-    "api-key": "1ea03267-65df-4d95-9c76-4b00987791f1",  # Replace with your actual API key
+    "api-key": "Your-API-Key",  # Replace with your actual API key
     "Content-Type": "application/json"
 }
 
